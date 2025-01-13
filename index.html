@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+            <label name="name" for="name" id="name-label"> Name <input type="text" required
+                    placeholder="Enter your name"></label>
+
+
+            <label for="email" id="email-label">Email<input type="email" name="email" min=10 max=99 required
+                    placeholder="Enter your email"></label>
+
+            <label for="age" id="number-label">Age<input name="age" type="number" min=1 max=3
+                    placeholder="Enter your age"></label>
+
+            <label>Which option best describes your current role?</label>
+            <select>
+                <option>Select your current role</option>
+                <option>student</option>
+                <option>teacher</option>
+            </select>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <label id="recommend">Would you recommend our website to a friend?</label>
+            <label for="persoonal-account"><input class="inline" type="radio" name="account" value="personal-account"
+                    checked>Definetly</label><br>
+            <label for="Bussines-account"><input type="radio" name="account" class="inline" value="business-account">May
+                be</label><br>
+                <label for="Bussines-account"><input type="radio" name="account" class="inline" value="business-account">Never</label><br>
+                <br>
+            <label class="improve">What would you like to see improved? (Check all that apply)</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Front-end Projects</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Back-end Projects</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Data Visualization</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Challenges</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Open Source Community</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Gitter help rooms</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Videos</label><br>
+            <label for="survey"><input class="inline" type="checkbox" name="survey" value="survey">Additional Courses</label>
+
+        </fieldset>
+        <hr>
+
+        <div><label class="comments">Any comments or suggestions?</label>
+            <textarea placeholder="Enter your comments here...."></textarea>
+        </div>
+
+        <input class="submit" type="submit" id="submit">
+
+
+    </form>
+</body>
+
+</html>

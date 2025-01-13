@@ -1,0 +1,105 @@
+body {
+    color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    margin: 1em;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0, 0.8);
+    background-image: url('https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59bjE6haQgkXz_w9wADDq7p-Esc5erSXONA&s');
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+    
+}
+
+#description {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+form {
+    background-color: #1b1b32;
+    width: 800px;
+    max-width: 2000px;
+    min-width: 600px;
+    max-height: 2000px;
+    height: 185%;
+    margin: 2em auto;
+    padding-bottom: 2em;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 2vh;
+    border-radius: 10px;
+
+}
+fieldset{
+    border: none;
+}
+hr {
+    border-bottom: 10px solid rgb(49, 46, 62);
+    margin:auto;
+    width:95%;
+    margin-bottom: 20px;
+}
+fieldset:first-of-type{
+    margin-top: none;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.inline{
+    display: inline;
+}
+input,
+select {
+    width: 100%;
+    min-height: 2em;
+    color: #f2f2f2;
+    background-color: #070719;
+    margin-bottom: 1em;
+    margin-top: 1vh;
+    font-size: 16px;
+}
+.improved{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#recommend {
+    padding-right: 17em;
+}
+.comments{
+    padding-top: 10px;
+    margin-left: 1em;
+}
+
+textarea {
+    font-size: 20px;
+    margin: 1em;
+    width:95%;
+    min-height: 6em;
+    color: #f2f2f2;
+    font-size: 16px;
+    background-color: #070719;
+    margin-bottom: 1em;
+    margin-top: 1vh;
+
+}
+.submit{
+    background-color: rgba(60, 255, 60, 0.644);
+    margin:0 auto;
+    display: block;
+    align-items: center;
+    width: 50%;
+    cursor:grab;
+}
